@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MiniGeothermalGenerator.label>迷你型地热发电机 (2x2)</MiniGeothermalGenerator.label>
+    <MiniGeothermalGenerator.description>一个紧凑型地热发电机，适合小规模能源需求。利用蒸汽间歇泉来产生电力。必须建造在蒸汽正上方。</MiniGeothermalGenerator.description>
+    <LightGeothermalGenerator.label>轻型地热发电机 (3x3)</LightGeothermalGenerator.label>
+    <LightGeothermalGenerator.description>一个稍大但输出功率较强的小型地热发电机，适合小规模能源需求。利用蒸汽间歇泉来产生电力。必须建造在蒸汽正上方。</LightGeothermalGenerator.description>
+    <MediumGeothermalGenerator.label>中型地热发电机 (4x4)</MediumGeothermalGenerator.label>
+    <MediumGeothermalGenerator.description>平衡型设计，适合中等能源需求的地热发电机。利用蒸汽间歇泉来产生电力。必须建造在蒸汽正上方。</MediumGeothermalGenerator.description>
+    <HighEfficiencyGeothermalGenerator.label>高效型地热发电机 (5x5)</HighEfficiencyGeothermalGenerator.label>
+    <HighEfficiencyGeothermalGenerator.description>强调效率的地热发电机，适合较大能源需求。利用蒸汽间歇泉来产生电力。必须建造在蒸汽正上方。</HighEfficiencyGeothermalGenerator.description>
+</LanguageData>

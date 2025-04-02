@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MiniGeothermalGenerator.label>Mini Geothermal Generator (2x2)</MiniGeothermalGenerator.label>
+    <MiniGeothermalGenerator.description>A compact geothermal generator suitable for small-scale energy needs. Produces electricity from geothermal steam geysers. Must be placed on a steam geyser.</MiniGeothermalGenerator.description>
+    <LightGeothermalGenerator.label>Light Geothermal Generator (3x3)</LightGeothermalGenerator.label>
+    <LightGeothermalGenerator.description>A slightly larger geothermal generator with higher power output for small-scale energy demands. Produces electricity from geothermal steam geysers. Must be placed on a steam geyser.</LightGeothermalGenerator.description>
+    <MediumGeothermalGenerator.label>Medium Geothermal Generator (4x4)</MediumGeothermalGenerator.label>
+    <MediumGeothermalGenerator.description>A well-balanced geothermal generator suited for moderate energy demands. Produces electricity from geothermal steam geysers. Must be placed on a steam geyser.</MediumGeothermalGenerator.description>
+    <HighEfficiencyGeothermalGenerator.label>High-Efficiency Geothermal Generator (5x5)</HighEfficiencyGeothermalGenerator.label>
+    <HighEfficiencyGeothermalGenerator.description>An efficiency-focused geothermal generator designed for larger energy requirements. Produces electricity from geothermal steam geysers. Must be placed on a steam geyser.</HighEfficiencyGeothermalGenerator.description>
+</LanguageData>

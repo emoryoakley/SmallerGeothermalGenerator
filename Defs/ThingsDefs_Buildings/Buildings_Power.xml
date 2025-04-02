@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>MiniGeothermalGenerator</defName>
+        <label>Mini Geothermal Generator (2x2)</label>
+        <description>A compact geothermal generator suitable for small-scale energy needs. Produces
+            electricity from geothermal steam geysers. Must be placed on a
+            steam geyser.
+        </description>
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <texPath>Things/Building/Power/GeothermalPlant</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <shadowData>
+                <volume>(2.03,1.0,1.25)</volume>
+                <offset>(0,0,-0.25)</offset>
+            </shadowData>
+            <damageData>
+                <rect>(0.3,0,5.4,6)</rect>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <fillPercent>1</fillPercent>
+        <blockLight>true</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <statBases>
+            <MaxHitPoints>125</MaxHitPoints>
+            <WorkToBuild>4000</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <Beauty>-30</Beauty>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <size>(2,2)</size>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlantSteam</compClass>
+                <basePowerConsumption>-500</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+            <li Class="CompProperties_Stunnable">
+                <useLargeEMPEffecter>true</useLargeEMPEffecter>
+                <empChancePerTick>0.7</empChancePerTick>
+                <affectedDamageDefs>
+                    <li>EMP</li>
+                </affectedDamageDefs>
+            </li>
+        </comps>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <designationCategory>Power</designationCategory>
+        <uiOrder>2106</uiOrder>
+        <placeWorkers>
+            <li>PlaceWorker_OnSteamGeyser</li>
+        </placeWorkers>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+        </building>
+        <constructEffect>ConstructMetal</constructEffect>
+        <designationHotKey>Misc6</designationHotKey>
+        <researchPrerequisites>
+            <li>GeothermalPower</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+    </ThingDef>
+    <ThingDef ParentName="BuildingBase">
+        <defName>LightGeothermalGenerator</defName>
+        <label>Light Geothermal Generator (3x3)</label>
+        <description>A slightly larger geothermal generator with higher power output suited for
+            small-scale energy needs. Produces electricity from geothermal steam geysers. Must be
+            built on a steam geyser.</description>
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <texPath>Things/Building/Power/GeothermalPlant</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <shadowData>
+                <volume>(3.03,1.0,1.75)</volume>
+                <offset>(0,0,-0.25)</offset>
+            </shadowData>
+            <damageData>
+                <rect>(0.3,0,5.4,6)</rect>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <fillPercent>1</fillPercent>
+        <blockLight>true</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <statBases>
+            <MaxHitPoints>175</MaxHitPoints>
+            <WorkToBuild>3500</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <Beauty>-30</Beauty>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <size>(3,3)</size>
+        <costList>
+            <Steel>120</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlantSteam</compClass>
+                <basePowerConsumption>-1000</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+            <li Class="CompProperties_Stunnable">
+                <useLargeEMPEffecter>true</useLargeEMPEffecter>
+                <empChancePerTick>0.7</empChancePerTick>
+                <affectedDamageDefs>
+                    <li>EMP</li>
+                </affectedDamageDefs>
+            </li>
+        </comps>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <designationCategory>Power</designationCategory>
+        <uiOrder>2107</uiOrder>
+        <placeWorkers>
+            <li>PlaceWorker_OnSteamGeyser</li>
+        </placeWorkers>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+        </building>
+        <constructEffect>ConstructMetal</constructEffect>
+        <designationHotKey>Misc6</designationHotKey>
+        <researchPrerequisites>
+            <li>GeothermalPower</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    </ThingDef>
+    <ThingDef ParentName="BuildingBase">
+        <defName>MediumGeothermalGenerator</defName>
+        <label>Medium Geothermal Generator (4x4)</label>
+        <description>A balanced geothermal generator suited for moderate energy needs. Produces
+            electricity from geothermal steam geysers. Must be built on a steam geyser.</description>
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <texPath>Things/Building/Power/GeothermalPlant</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(4,4)</drawSize>
+            <shadowData>
+                <volume>(4.03,1.0,2.25)</volume>
+                <offset>(0,0,-0.25)</offset>
+            </shadowData>
+            <damageData>
+                <rect>(0.3,0,5.4,6)</rect>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <fillPercent>1</fillPercent>
+        <blockLight>true</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToBuild>6000</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <Beauty>-30</Beauty>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <size>(4,4)</size>
+        <costList>
+            <Steel>200</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlantSteam</compClass>
+                <basePowerConsumption>-1800</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+            <li Class="CompProperties_Stunnable">
+                <useLargeEMPEffecter>true</useLargeEMPEffecter>
+                <empChancePerTick>0.7</empChancePerTick>
+                <affectedDamageDefs>
+                    <li>EMP</li>
+                </affectedDamageDefs>
+            </li>
+        </comps>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <designationCategory>Power</designationCategory>
+        <uiOrder>2108</uiOrder>
+        <placeWorkers>
+            <li>PlaceWorker_OnSteamGeyser</li>
+        </placeWorkers>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+        </building>
+        <constructEffect>ConstructMetal</constructEffect>
+        <designationHotKey>Misc6</designationHotKey>
+        <researchPrerequisites>
+            <li>GeothermalPower</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    </ThingDef>
+    <ThingDef ParentName="BuildingBase">
+        <defName>HighEfficiencyGeothermalGenerator</defName>
+        <label>High-Efficiency Geothermal Generator (5x5)</label>
+        <description>An efficiency-focused geothermal generator designed for larger energy needs.
+            Produces electricity from geothermal steam geysers. Must be built on a steam geyser.</description>
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <texPath>Things/Building/Power/GeothermalPlant</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(5,5)</drawSize>
+            <shadowData>
+                <volume>(5.03,1.0,2.75)</volume>
+                <offset>(0,0,-0.25)</offset>
+            </shadowData>
+            <damageData>
+                <rect>(0.3,0,5.4,6)</rect>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <fillPercent>1</fillPercent>
+        <blockLight>true</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <statBases>
+            <MaxHitPoints>450</MaxHitPoints>
+            <WorkToBuild>9000</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <Beauty>-30</Beauty>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <size>(5,5)</size>
+        <costList>
+            <Steel>300</Steel>
+            <ComponentIndustrial>7</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlantSteam</compClass>
+                <basePowerConsumption>-2700</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+            <li Class="CompProperties_Stunnable">
+                <useLargeEMPEffecter>true</useLargeEMPEffecter>
+                <empChancePerTick>0.7</empChancePerTick>
+                <affectedDamageDefs>
+                    <li>EMP</li>
+                </affectedDamageDefs>
+            </li>
+        </comps>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <designationCategory>Power</designationCategory>
+        <uiOrder>2109</uiOrder>
+        <placeWorkers>
+            <li>PlaceWorker_OnSteamGeyser</li>
+        </placeWorkers>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+        </building>
+        <constructEffect>ConstructMetal</constructEffect>
+        <designationHotKey>Misc6</designationHotKey>
+        <researchPrerequisites>
+            <li>GeothermalPower</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    </ThingDef>
+</Defs>

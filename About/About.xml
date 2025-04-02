@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Smaller Geothermal Generator</name>
+    <author>Emoryoakley (Exiler)</author>
+    <modVersion>1.5-20250402</modVersion>
+    <description>
+        
+        
+        This is a simple RimWorld mod that resized the original geothermal generator, adding four new sizes: 2x2, 3x3, 4x4, and 5x5. For more detailed information, please visit: https://github.com/emoryoakley/SmallerGeothermalGenerator. 
+        
+        
+        這是一個簡易的 RimWorld 模組，本模組依照原版的地熱發電機調整了大小，新增了: 2x2、3x3、4x4 和 5x5 等，總共四種尺寸的地熱發電機。更多詳細內容請查看: https://github.com/emoryoakley/SmallerGeothermalGenerator。
+    
+    
+    </description>
+    <packageId>emoryoakley.buildings.smallergeothermalgenerator</packageId>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <url>https://github.com/emoryoakley/SmallerGeothermalGenerator</url>
+</ModMetaData>
