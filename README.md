@@ -18,8 +18,9 @@ You can also modify the `max power output` and `resources to make` in the mod se
 ## How to use:
 1. Go to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3456671049) and subscribe to or download this mod from [release page](https://github.com/emoryoakley/SmallerGeothermalGenerator/releases).
 2. Enable this mod in the game (no specific loading order required). 
-3. Research "Geothermal Power" in the game. Once completed, you can start constructing. Each type has specific required construction skill levels, which you can find detailed in the table below.
+3. Research "Geothermal Power" in the game. Once completed, you can start constructing.
 
+## Generator Info:
 | Name                        | Area          | Power (W) | Power per Unit Area (W/Tile) | Resources to Make        | HP  | Work to Make | Construction Skill Required |
 |-----------------------------|---------------|-----------|-----------------------------|--------------------------|------|--------------|-----------------------------|
 | Mini Geothermal Generator (2x2)      | 4 Tiles       | 500       | 125                         | 50 Steel, 2 Components   | 75   | 1500         | 2                           |
