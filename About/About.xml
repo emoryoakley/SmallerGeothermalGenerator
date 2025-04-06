@@ -3,82 +3,92 @@
     <name>Smaller Geothermal Generator (更小的地熱發電機)</name>
     <author>Emoryoakley (Exiler)</author>
     <modVersion>1.5.20250406</modVersion>
-    <description>
-        
-[b]Smaller Geothermal Generator (更小的地熱發電機)[/b]
-[i]Version: 1.5.20250406[/i]
-[url=https://github.com/emoryoakley/SmallerGeothermalGenerator/blob/master/README.zh.md]繁體中文說明[/url] | [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/blob/master/README.md]English README[/url]
-[b]Introduction:[/b]
+    <description>[h1][b]Mod Name: Smaller Geothermal Generator (更小的地熱發電機)[/b][/h1]
+[h3][i]Latest Version: 1.5.20250406[/i][/h3]
+[h3][url=https://github.com/emoryoakley/SmallerGeothermalGenerator/blob/master/README.zh.md]繁體中文說明[/url] | [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/blob/master/README.md]English README[/url][/h3]
+[hr][/hr]
+[h3][b]Introduction:[/b][/h3]
 This is a simple RimWorld mod that adjusts the size of the original geothermal generator and introduces four new sizes: 2x2, 3x3, 4x4, and 5x5.
-To make it more realistic, the mod includes adjusted values for the four new geothermal generators, such as `max power output`, `resources to make`, `max hit points`, `work to make`, and `required construction skill levels`.
+To make it more realistic, the mod includes adjusted values for the four new geothermal generators, such as [b]max power output[/b], [b]resources to make[/b], [b]max hit points[/b], [b]work to make[/b], and [b]required construction skill levels[/b].
 Aside from the listed values, theoretically, other building attributes or features remain consistent with the original geothermal generator.
 
-You can also modify the `max power output` and `resources to make` in the mod settings.
-
-[b]How to Use:[/b]
-1. Subscribe to or download this mod from [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/releases]release page[/url].
-2. Enable this mod in the game (no specific loading order required). 
-3. Research "Geothermal Power" in the game. Once completed, you can start constructing. Each type has specific required construction skill levels, which you can find as follows.
-
-[b]Mini Geothermal Generator (2x2)[/b]
-- Area: 4 Tiles
-- Power Output: 500 W
-- Power Efficiency: 125 W/Tile
-- Resources Required: 50 Steel, 2 Components
-- Maximum HP: 75
-- Work Required: 1500
-- Construction Skill Level: 2
-
-[b]Light Geothermal Generator (3x3)[/b]
-- Area: 9 Tiles
-- Power Output: 1000 W
-- Power Efficiency: 111.1 W/Tile
-- Resources Required: 120 Steel, 3 Components
-- Maximum HP: 175
-- Work Required: 3500
-- Construction Skill Level: 3
-
-[b]Medium Geothermal Generator (4x4)[/b]
-- Area: 16 Tiles
-- Power Output: 1800 W
-- Power Efficiency: 112.5 W/Tile
-- Resources Required: 200 Steel, 5 Components
-- Maximum HP: 300
-- Work Required: 6000
-- Construction Skill Level: 5
-
-[b]High-Efficiency Geothermal Generator (5x5)[/b]
-- Area: 25 Tiles
-- Power Output: 2700 W
-- Power Efficiency: 108 W/Tile
-- Resources Required: 300 Steel, 7 Components
-- Maximum HP: 450
-- Work Required: 9000
-- Construction Skill Level: 7
-
-[b]Geothermal Generator (6x6) (Vanilla)[/b]
-- Area: 36 Tiles
-- Power Output: 3600 W
-- Power Efficiency: 100 W/Tile
-- Resources Required: 340 Steel, 8 Components
-- Maximum HP: 500
-- Work Required: 12000
-- Construction Skill Level: 8
-
-[b]Languages:[/b] 
+You can also modify the [b]max power output[/b] and [b]resources to make[/b] in the mod settings.
+[h3][b]How to Use:[/b][/h3]
+[olist]
+[*] Subscribe to or download this mod from [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/releases]release page[/url].
+[*] Enable this mod in the game (no specific loading order required). 
+[*] Research "Geothermal Power" in the game. Once completed, you can start constructing.
+[/olist]
+[h3][b]Generator Info:[/b][/h3]
+[olist]
+[*][b]Mini Geothermal Generator (2x2)[/b]
+[list]
+[*] Area: 4 Tiles
+[*] Power Output: 500 W
+[*] Power Efficiency: 125 W/Tile
+[*] Resources Required: 50 Steel, 2 Components
+[*] Maximum HP: 75
+[*] Work Required: 1500
+[*] Construction Skill Level: 2
+[/list]
+[*][b]Light Geothermal Generator (3x3)[/b]
+[list]
+[*] Area: 9 Tiles
+[*] Power Output: 1000 W
+[*] Power Efficiency: 111.1 W/Tile
+[*] Resources Required: 120 Steel, 3 Components
+[*] Maximum HP: 175
+[*] Work Required: 3500
+[*] Construction Skill Level: 3
+[/list]
+[*][b]Medium Geothermal Generator (4x4)[/b]
+[list]
+[*] Area: 16 Tiles
+[*] Power Output: 1800 W
+[*] Power Efficiency: 112.5 W/Tile
+[*] Resources Required: 200 Steel, 5 Components
+[*] Maximum HP: 300
+[*] Work Required: 6000
+[*] Construction Skill Level: 5
+[/list]
+[*][b]High-Efficiency Geothermal Generator (5x5)[/b]
+[list]
+[*] Area: 25 Tiles
+[*] Power Output: 2700 W
+[*] Power Efficiency: 108 W/Tile
+[*] Resources Required: 300 Steel, 7 Components
+[*] Maximum HP: 450
+[*] Work Required: 9000
+[*] Construction Skill Level: 7
+[/list]
+[*][b]Geothermal Generator (6x6) (Vanilla)[/b]
+[list]
+[*] Area: 36 Tiles
+[*] Power Output: 3600 W
+[*] Power Efficiency: 100 W/Tile
+[*] Resources Required: 340 Steel, 8 Components
+[*] Maximum HP: 500
+[*] Work Required: 12000
+[*] Construction Skill Level: 8
+[/list]
+[/olist]
+[h3][b]Languages:[/b][/h3]
 This mod includes translations for:
-- Traditional Chinese (繁體中文)
-- Simplified Chinese (简体中文)
-- English
-
+[list]
+[*] Traditional Chinese (繁體中文)
+[*] Simplified Chinese (简体中文)
+[*] English
+[/list]
 Feel free to create and share your own language translation mods to extend compatibility.
-
-[b]Compatibility and Notes:[/b]
-- This mod is incompatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url].
-    - You can still enable both this mod and the Geothermal Power Extenders mod in the game at the same time.
-    - But the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url] mod adds an extension building, which requires placement next to a geothermal generator. However, this extension building cannot be placed next to the four new geothermal generators added by this mod.
-- For additional details, please refer to the [url=https://github.com/emoryoakley/SmallerGeothermalGenerator]GitHub repository[/url].
-    </description>
+[h3][b]Compatibility and Notes:[/b][/h3]
+[list]
+[*] This mod is incompatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url].
+    [list]
+    [*] You can still enable both this mod and the Geothermal Power Extenders mod in the game at the same time.
+    [*] But the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url] mod adds an extension building, which requires placement next to a geothermal generator. However, this extension building cannot be placed next to the four new geothermal generators added by this mod.
+    [/list]
+[*] For additional details, please refer to the [url=https://github.com/emoryoakley/SmallerGeothermalGenerator]GitHub repository[/url].
+[/list]</description>
     <packageId>emoryoakley.buildings.smallergeothermalgenerator</packageId>
     <supportedVersions>
         <li>1.5</li>
