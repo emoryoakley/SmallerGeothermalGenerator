@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <ModSetting.Header.Title>Smaller Geothermal Generator</ModSetting.Header.Title>
+    <ModSetting.Header.Description>You can modify the power output and required resources of each generator.</ModSetting.Header.Description>
+    <MiniGeothermalGenerator.Label>Mini Geothermal Generator (2x2)</MiniGeothermalGenerator.Label>
+    <LightGeothermalGenerator.Label>Light Geothermal Generator (3x3)</LightGeothermalGenerator.Label>
+    <MediumGeothermalGenerator.Label>Medium Geothermal Generator (4x4)</MediumGeothermalGenerator.Label>
+    <HighEfficiencyGeothermalGenerator.Label>High-Efficiency Geothermal Generator (5x5)</HighEfficiencyGeothermalGenerator.Label>
+    <PowerOutput.Label>Power Output (W)</PowerOutput.Label>
+    <CostSteel.Label>Required Steel</CostSteel.Label>
+    <CostComponent.Label>Required Component</CostComponent.Label>
+    <DefaultValue.Label>Default value is {0}.</DefaultValue.Label>
+    <AllowedRange.Label>Allowed range is {0} to {1}.</AllowedRange.Label>
+</LanguageData>
