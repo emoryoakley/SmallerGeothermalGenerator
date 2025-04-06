@@ -19,6 +19,10 @@ obj/
 *.log
 *.lib
 
+# 保留 Assemblies/ 和 Source/lib/ 目錄下的 dll 檔案
+!Source/lib/*.dll
+!Assemblies/*.dll
+
 # 忽略 NuGet 相關檔案
 *.nupkg
 packages/
