@@ -2,84 +2,77 @@
 <ModMetaData>
     <name>Smaller Geothermal Generator (更小的地熱發電機)</name>
     <author>Emoryoakley (Exiler)</author>
-    <modVersion>1.5-20250402</modVersion>
+    <modVersion>1.5.20250406</modVersion>
     <description>
         
 [b]Smaller Geothermal Generator (更小的地熱發電機)[/b]
-
-[i]Version: 1.5-20250402[/i]
-
+[i]Version: 1.5.20250406[/i]
 [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/blob/master/README.zh.md]繁體中文說明[/url] | [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/blob/master/README.md]English README[/url]
+[b]Introduction:[/b] This RimWorld mod introduces four new sizes for the vanilla geothermal generator: 2x2, 3x3, 4x4, and 5x5.
+To enhance gameplay realism and provide customization options, the values for power output and resources required for construction are adjustable via the in-game settings menu. All other attributes, such as maximum hit points, work required to build, and necessary construction skill levels, are preset and consistent with the default values.
 
-[b]Introduction:[/b] 
-This is a simple RimWorld mod that resized the vanilla geothermal generator, adding four new sizes: 2x2, 3x3, 4x4, and 5x5.
+[b]How to Use:[/b]
+1. Subscribe to or download this mod, and enable it in-game.
+2. Complete the "Geothermal Power" research to unlock the new generator sizes.
+3. Modify power output and resources required to suit your preferences through the mod settings menu.
 
-To enhance realism in the game, the related values for the four new geothermal generators added in this mod, including power output, resources to make, max hit points, work to make, and required construction skill levels, have all been adjusted.
-
-Apart from the values listed above, theoretically, all other building attributes or stats are consistent with the vanilla geothermal generator.
-
-[b]How to Use?:[/b]
-Subscribe to or download this mod and enable it in the game. Complete the research "Geothermal Power" to unlock the four new geothermal generators.
-
-Check below for detailed specifications of each generator: 
-
+Default specifications for each generator are as follows:
 [b]Mini Geothermal Generator (2x2)[/b]
 - Area: 4 Tiles
-- Power: 500 W
-- Power per Unit Area: 125 W/Tile
-- Resources to Make: 50 Steel, 2 Components
-- HP: 75
-- Work to Make: 1500
-- Construction Skill Required: 2
+- Power Output: 500 W
+- Power Efficiency: 125 W/Tile
+- Resources Required: 50 Steel, 2 Components
+- Maximum HP: 75
+- Work Required: 1500
+- Construction Skill Level: 2
 
 [b]Light Geothermal Generator (3x3)[/b]
 - Area: 9 Tiles
-- Power: 1000 W
-- Power per Unit Area: 111.1 W/Tile
-- Resources to Make: 120 Steel, 3 Components
-- HP: 175
-- Work to Make: 3500
-- Construction Skill Required: 3
+- Power Output: 1000 W
+- Power Efficiency: 111.1 W/Tile
+- Resources Required: 120 Steel, 3 Components
+- Maximum HP: 175
+- Work Required: 3500
+- Construction Skill Level: 3
 
 [b]Medium Geothermal Generator (4x4)[/b]
 - Area: 16 Tiles
-- Power: 1800 W
-- Power per Unit Area: 112.5 W/Tile
-- Resources to Make: 200 Steel, 5 Components
-- HP: 300
-- Work to Make: 6000
-- Construction Skill Required: 5
+- Power Output: 1800 W
+- Power Efficiency: 112.5 W/Tile
+- Resources Required: 200 Steel, 5 Components
+- Maximum HP: 300
+- Work Required: 6000
+- Construction Skill Level: 5
 
-[b]High-Efficient Geothermal Generator (5x5)[/b]
+[b]High-Efficiency Geothermal Generator (5x5)[/b]
 - Area: 25 Tiles
-- Power: 2700 W
-- Power per Unit Area: 108 W/Tile
-- Resources to Make: 300 Steel, 7 Components
-- HP: 450
-- Work to Make: 9000
-- Construction Skill Required: 7
+- Power Output: 2700 W
+- Power Efficiency: 108 W/Tile
+- Resources Required: 300 Steel, 7 Components
+- Maximum HP: 450
+- Work Required: 9000
+- Construction Skill Level: 7
 
 [b]Geothermal Generator (6x6) (Vanilla)[/b]
 - Area: 36 Tiles
-- Power: 3600 W
-- Power per Unit Area: 100 W/Tile
-- Resources to Make: 340 Steel, 8 Components
-- HP: 500
-- Work to Make: 12000
-- Construction Skill Required: 8
+- Power Output: 3600 W
+- Power Efficiency: 100 W/Tile
+- Resources Required: 340 Steel, 8 Components
+- Maximum HP: 500
+- Work Required: 12000
+- Construction Skill Level: 8
 
 [b]Languages:[/b] 
-This mod includes support for:
+This mod includes translations for:
 - Traditional Chinese (繁體中文)
 - Simplified Chinese (简体中文)
 - English
 
-You are welcome to develop and upload your own language translation mods.
+Feel free to create and share your own language translation mods to extend compatibility.
 
 [b]Compatibility and Notes:[/b]
-- This mod is known to be incompatible with the mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url].
-- For more detailed information, please visit: [url=https://github.com/emoryoakley/SmallerGeothermalGenerator]GitHub Repo[/url]。
-    
+- This mod is incompatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url].
+- For additional details, please refer to the [url=https://github.com/emoryoakley/SmallerGeothermalGenerator]GitHub repository[/url].
     </description>
     <packageId>emoryoakley.buildings.smallergeothermalgenerator</packageId>
     <supportedVersions>
