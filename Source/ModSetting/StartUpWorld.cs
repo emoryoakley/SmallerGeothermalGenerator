@@ -1,6 +1,6 @@
 ﻿using RimWorld.Planet;
 using SmallerGeothermalGenerator.Patch;
-using System.Diagnostics;
+using System.Linq;
 using System.Reflection;
 using Verse;
 
@@ -17,10 +17,22 @@ namespace SmallerGeothermalGenerator
         /// </summary>
         static StartUpWorld()
         {
-            // 獲取當前執行的dll組件，印出組件建置編號以及版本號
+            // 獲取當前執行的dll組件，印出組件建置編號以及釋出版本號
             Assembly executingAssembly = Assembly.GetExecutingAssembly();
-            Log.Message($"[SmallerGeothermalGenerator] Current build version is {executingAssembly.GetName().Version}.");
-            Log.Message($"[SmallerGeothermalGenerator] Current mod version is {FileVersionInfo.GetVersionInfo(executingAssembly.Location).ProductVersion}.");
+            Log.Message($"[SmallerGeothermalGenerator] Current assembly build version is {executingAssembly.GetName().Version}.");
+
+            // 使用反射獲取 AssemblyInformationalVersion
+            var informationalVersionAttribute = executingAssembly
+                .GetCustomAttributes(typeof(AssemblyInformationalVersionAttribute), false)
+                .OfType<AssemblyInformationalVersionAttribute>()
+                .FirstOrDefault();
+
+            string productVersion = informationalVersionAttribute?.InformationalVersion ?? "";
+
+            if (!string.IsNullOrEmpty(productVersion))
+            {
+                Log.Message($"[SmallerGeothermalGenerator] Current assembly product version is {productVersion}.");
+            }
 
             // 執行補丁邏輯
             ModPatch.Patch();
