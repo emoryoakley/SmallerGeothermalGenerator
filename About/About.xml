@@ -8,15 +8,18 @@
 [b]Smaller Geothermal Generator (更小的地熱發電機)[/b]
 [i]Version: 1.5.20250406[/i]
 [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/blob/master/README.zh.md]繁體中文說明[/url] | [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/blob/master/README.md]English README[/url]
-[b]Introduction:[/b] This RimWorld mod introduces four new sizes for the vanilla geothermal generator: 2x2, 3x3, 4x4, and 5x5.
-To enhance gameplay realism and provide customization options, the values for power output and resources required for construction are adjustable via the in-game settings menu. All other attributes, such as maximum hit points, work required to build, and necessary construction skill levels, are preset and consistent with the default values.
+[b]Introduction:[/b]
+This is a simple RimWorld mod that adjusts the size of the original geothermal generator and introduces four new sizes: 2x2, 3x3, 4x4, and 5x5.
+To make it more realistic, the mod includes adjusted values for the four new geothermal generators, such as `max power output`, `resources to make`, `max hit points`, `work to make`, and `required construction skill levels`.
+Aside from the listed values, theoretically, other building attributes or features remain consistent with the original geothermal generator.
+
+You can also modify the `max power output` and `resources to make` in the mod settings.
 
 [b]How to Use:[/b]
-1. Subscribe to or download this mod, and enable it in-game.
-2. Complete the "Geothermal Power" research to unlock the new generator sizes.
-3. Modify power output and resources required to suit your preferences through the mod settings menu.
+1. Subscribe to or download this mod from [url=https://github.com/emoryoakley/SmallerGeothermalGenerator/releases]release page[/url].
+2. Enable this mod in the game (no specific loading order required). 
+3. Research "Geothermal Power" in the game. Once completed, you can start constructing. Each type has specific required construction skill levels, which you can find as follows.
 
-Default specifications for each generator are as follows:
 [b]Mini Geothermal Generator (2x2)[/b]
 - Area: 4 Tiles
 - Power Output: 500 W

@@ -5,17 +5,20 @@
 [繁體中文說明](./README.zh.md) | [English README](./README.md)
 -
 ## Introduction:
-This is a simple RimWorld mod that resized the vanilla geothermal generator, adding four new sizes: 2x2, 3x3, 4x4, and 5x5.
+This is a simple RimWorld mod that adjusts the size of the original geothermal generator and introduces four new sizes: 2x2, 3x3, 4x4, and 5x5.
 
-To enhance realism in the game, the related values for the four new geothermal generators added in this mod, including `max power output`, `resources to make`, `max hit points`, `work to make`, and `required construction skill levels`, have all been adjusted.
+To make it more realistic, the mod includes adjusted values for the four new geothermal generators, such as `max power output`, `resources to make`, `max hit points`, `work to make`, and `required construction skill levels`.
 
-Apart from the values listed above, theoretically, all other building attributes or stats are consistent with the vanilla geothermal generator.
+Aside from the listed values, theoretically, other building attributes or features remain consistent with the original geothermal generator.
+
+You can also modify the `max power output` and `resources to make` in the mod settings.
 
 ![showcase1](./Media/showcase1.png)
 
 ## How to use:
-
-Subscribe or download this mod and enable it in the game to use. Please note that the added four new geothermal generators in this mod require the research - "Geothermal Power" to be completed before construction. Additionally, each generator has specific required construction skill levels, which you can find detailed in the table below.
+1. Go to the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3456671049) and subscribe to or download this mod from [release page](https://github.com/emoryoakley/SmallerGeothermalGenerator/releases).
+2. Enable this mod in the game (no specific loading order required). 
+3. Research "Geothermal Power" in the game. Once completed, you can start constructing. Each type has specific required construction skill levels, which you can find detailed in the table below.
 
 | Name                        | Area          | Power (W) | Power per Unit Area (W/Tile) | Resources to Make        | HP  | Work to Make | Construction Skill Required |
 |-----------------------------|---------------|-----------|-----------------------------|--------------------------|------|--------------|-----------------------------|
@@ -31,7 +34,7 @@ Subscribe or download this mod and enable it in the game to use. Please note tha
 ![2x2_mini_info](./Media/2x2_mini_info.png)
 
 ## Language:
-Currently, I use Copilot and ChatGPT for translations. This mod includes built-in support for Traditional Chinese, Simplified Chinese, and English. This is a simple mod, with English set as the default language. If translations for other languages are needed, due to limitations in maintenance resources, they cannot all be integrated into the mod. You are welcome to develop and upload your own language translation mods.
+This mod includes built-in support for Traditional Chinese, Simplified Chinese, and English (Default language). If translations for other languages are needed, due to limitations in maintenance resources, they cannot all be integrated into the mod. You are welcome to develop and upload your own language translation mods.
 
 ## Compatibility:
 - In my personal save file, which includes over 300 mods, this mod works perfectly without any major issues. It can be safely added to an existing save or removed from an existing save. Removing from an existing save will not cause errors. However, removing this mod from existing save cause any previously built structures to vanish, potentially leading to interruptions in your base's power supply.
@@ -51,5 +54,5 @@ Currently, I use Copilot and ChatGPT for translations. This mod includes built-i
 - This mod directly uses the vanilla's geothermal generator texture. If you are using other mods that overwrite the original texture, this mod may be affected.
 
 ## Latest Mod Version:
-- Version: 1.5-20250402
+- Version: 1.5.20250406
 - Compatible with RimWorld 1.5
