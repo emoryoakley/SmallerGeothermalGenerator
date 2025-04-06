@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
     <ModSetting.Header.Title>Smaller Geothermal Generator</ModSetting.Header.Title>
-    <ModSetting.Header.Description>You can modify the power output and required resources of each generator.</ModSetting.Header.Description>
+    <ModSetting.Header.Description>You can modify the power output {0} and required resources {1} of each generator that added by this mod. After modifying, you need to reload the game to apply the changes.</ModSetting.Header.Description>
     <MiniGeothermalGenerator.Label>Mini Geothermal Generator (2x2)</MiniGeothermalGenerator.Label>
     <LightGeothermalGenerator.Label>Light Geothermal Generator (3x3)</LightGeothermalGenerator.Label>
     <MediumGeothermalGenerator.Label>Medium Geothermal Generator (4x4)</MediumGeothermalGenerator.Label>

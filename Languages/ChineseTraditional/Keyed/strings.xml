@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
     <ModSetting.Header.Title>更小的地熱發電機</ModSetting.Header.Title>
-    <ModSetting.Header.Description>你可以自行調整各發電機的最大電力輸出功率以及建造所需資源。</ModSetting.Header.Description>
+    <ModSetting.Header.Description>你可以自行調整模組提供的發電機的最大電力輸出功率{0}以及建造所需的鋼鐵和零件{1}。修改設定後你需要重新讀取遊戲存檔才能生效。</ModSetting.Header.Description>
     <MiniGeothermalGenerator.Label>迷你型地熱發電機 (2x2)</MiniGeothermalGenerator.Label>
     <LightGeothermalGenerator.Label>輕型地熱發電機 (3x3)</LightGeothermalGenerator.Label>
     <MediumGeothermalGenerator.Label>中型地熱發電機 (4x4)</MediumGeothermalGenerator.Label>
@@ -9,6 +9,6 @@
     <PowerOutput.Label>最大電力輸出功率(W)</PowerOutput.Label>
     <CostSteel.Label>建造所需要鋼鐵</CostSteel.Label>
     <CostComponent.Label>建造所需要零件</CostComponent.Label>
-    <DefaultValue.Label>預設值為 {0}。</DefaultValue.Label>
-    <AllowedRange.Label>允許範圍是 {0} 至 {1}。</AllowedRange.Label>
+    <DefaultValue.Label>預設值為 {0}</DefaultValue.Label>
+    <AllowedRange.Label>允許範圍是 {0} 至 {1}</AllowedRange.Label>
 </LanguageData>

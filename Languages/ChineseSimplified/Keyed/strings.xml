@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
+    <ModSetting.Header.Title>更小的地热发电机</ModSetting.Header.Title>
+    <ModSetting.Header.Description>你可以自行调整模块提供的发电机的最大电力输出功率{0}以及建造所需的钢铁和零件{1}。修改设置后你需要重新读取游戏存档才能生效。</ModSetting.Header.Description>
+    <MiniGeothermalGenerator.Label>迷你型地热发电机 (2x2)</MiniGeothermalGenerator.Label>
+    <LightGeothermalGenerator.Label>轻型地热发电机 (3x3)</LightGeothermalGenerator.Label>
+    <MediumGeothermalGenerator.Label>中型地热发电机 (4x4)</MediumGeothermalGenerator.Label>
+    <HighEfficiencyGeothermalGenerator.Label>高效型地热发电机 (5x5)</HighEfficiencyGeothermalGenerator.Label>
+    <PowerOutput.Label>最大电力输出功率(W)</PowerOutput.Label>
+    <CostSteel.Label>建造所需要钢铁</CostSteel.Label>
+    <CostComponent.Label>建造所需要零件</CostComponent.Label>
+    <DefaultValue.Label>默认值为 {0}</DefaultValue.Label>
+    <AllowedRange.Label>允许范围是 {0} 至 {1}</AllowedRange.Label>
 </LanguageData>
