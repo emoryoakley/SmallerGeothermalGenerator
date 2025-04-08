@@ -85,10 +85,10 @@ This mod includes translations for:
 Feel free to create and share your own language translation mods to extend compatibility.
 [h3][b]Compatibility and Notes:[/b][/h3]
 [list]
-[*] This mod is incompatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url].
+[*] Currently you can use this mod with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url].
     [list]
-    [*] You can still enable both this mod and the Geothermal Power Extenders mod in the game at the same time.
-    [*] But the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url] mod adds an extension building, which requires placement next to a geothermal generator. However, this extension building cannot be placed next to the four new geothermal generators added by this mod.
+    [*] The power extenders can boost power output.
+    [*] Install [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3460251810]Geothermal Power Extender Compatibility Pack[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885]Geothermal Power Extenders[/url], so that you can build the power extenders next to the geothermal generators provide by this mod (or other mods).
     [/list]
 [*] For additional details, please refer to the [url=https://github.com/emoryoakley/SmallerGeothermalGenerator]GitHub repository[/url].
 [/list]</description>
