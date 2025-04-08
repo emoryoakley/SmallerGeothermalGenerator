@@ -41,10 +41,7 @@
 ## 相容性:
 - 目前個人遊玩的存檔中包含300多個模組，可以正常遊玩，沒有發生重大錯誤，本模組可以在遊戲中途存檔加入，也可以在存檔中移除，中途移除模組不會發生錯誤，但是會導致已蓋好的建築物直接消失，間接導致你的基地電力供應會產生問題。
 
-- 目前已知不相容於[Geothermal Power Extenders](https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885)。
-    - 你仍可以在遊戲中同時啟用本模組與 Geothermal Power Extenders模組。
-    - 只是Geothermal Power Extenders模組新增了一個擴充建築，該建築物會判斷需要建造在地熱發電機的旁邊，該擴充建築沒辦法建造在本模租新增的4款地熱發電機旁邊。
-    - 原因可能是本模組中新增的4款地熱發電機的 `defName` 並沒有在該擴充建築的 `PlaceWorker` 方法判斷當中。
+- 目前並無已知的不相容的模組。
 
 ## 其他注意事項:
 - 本模組無特定依賴其他模組，可以單獨使用。
@@ -52,6 +49,10 @@
 - 如果有使用類似限制科技的模組，例如：[Rimedieval](https://steamcommunity.com/sharedfiles/filedetails/?id=2516523040) 或 [World Tech Level](https://steamcommunity.com/sharedfiles/filedetails/?id=3414187030)，導致無法研究"地熱發電"，則會無法建造該模組提供的地熱發電機，當然，原版的也無法建造。
 
 - 建議搭配[[Ling]Move Steam Geyser](https://steamcommunity.com/sharedfiles/filedetails/?id=1547361568) 或[MinifyEverything](https://steamcommunity.com/sharedfiles/filedetails/?id=872762753) 共同使用。主要原因是 3x3 和 5x5 型號的地熱發電機在建造時，建造中心點並非正中間，並沒有那麼直觀。所以你可能會需要時常移動蒸氣間歇泉來符合你的基地的布局。
+
+- 現在你可以同時使用本模組和 [Geothermal Power Extenders](https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885)
+    - 擴展建築(power extenders)可以增加既有地熱發電機的電力輸出。
+    - 同時安裝 [Geothermal Power Extender Compatibility Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=3460251810) 以及 [Geothermal Power Extenders](https://steamcommunity.com/sharedfiles/filedetails/?id=3373466885)， 這樣你就可以在本模組提供的地熱發電機(或是其他模組的地熱發電機)旁邊建造擴展建築(power extenders)。
 
 - 本模組是直接使用原版遊戲中的地熱發電機貼圖，若你有使用其他模組覆寫原版的貼圖，本模組應該會受到影響。
 
